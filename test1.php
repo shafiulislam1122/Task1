@@ -3,10 +3,15 @@
     <h2>HTML Forms</h2>
 
     <from action="/action_page.php">
-        First Name :
+       
+    <table>
+    <tr>
+            <td>First Name: </td>
+            <td>
         <input type="text"first name= "first name" placeholder>
-        <br>
-        <table>
+</td>
+</tr>
+        
             <tr>
             <td>last name: </td>
             <td>
@@ -32,6 +37,17 @@
         </td>
 </tr>
 
+<tr>
+            <td> Preferred language: </td>
+            <td>
+<input type="checkbox" name="Preferred language">JAVA
+
+<input type="checkbox" name="Preferred language">PHP
+ 
+<input type="checkbox" name="Preferred language">C++
+
+</td>
+</tr>
 
 
 
@@ -50,7 +66,23 @@
         
         </td>
 </tr>
+ 
+<tr>
+            <td>   Please choose a file: </td>
+            <td>
+<input type="submit"name="b" value="Choose File"> No file chosen
+ 
+</td>
+</tr>
+<tr>
+    <td>
+<input type="submit"name="submit" value="Submit">
+<input type="reset"name="reset" value="Reset">
+</tr>
+</td>
 
+</table>
 </form>
+
 </body>
 </html>
